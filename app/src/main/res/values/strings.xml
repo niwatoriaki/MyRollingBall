@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MyRollingBall</string>
     <string name="reset">reset</string>
+    <string name="ganbare">がんばれ！</string>
+    <string name="zannnenn">ざんねん</string>
+    <string name="omedetou">おめでとう！</string>
 </resources>

@@ -18,8 +18,8 @@
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="300px"
-        android:layout_height="300px"
+        android:layout_width="200px"
+        android:layout_height="200px"
         android:layout_marginStart="232dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
@@ -38,4 +38,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="70dp"
+        android:text="@string/ganbare"
+        app:layout_constraintBottom_toTopOf="@+id/surfaceView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        tools:text="@string/ganbare" />
 </androidx.constraintlayout.widget.ConstraintLayout>
